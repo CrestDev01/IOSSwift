@@ -1,0 +1,16 @@
+/* 
+  CameraUI.strings
+  ClothingIndustry
+
+  Created by Nikhil Patel on 11/02/20.
+  Copyright © 2020 Crest Infosystems. All rights reserved.
+*/
+
+"PHOTO" = "KUVA";
+"AEAF_LOCK_TEXT" = "AE / AF-LUKITUS";
+"API_CANCEL_TITLE" = "Peruuta";
+"HDR_AUTO" = "Auto";
+"HDR_ON" = "Päällä";
+"HDR_OFF" = "Vinossa";
+"TIMER_OFF_TEXT" = "Vinossa";
+"USE_PHOTO" = "Käytä kuvaa";

@@ -1,0 +1,13 @@
+/* 
+  PhotosUI.strings
+  ClothingIndustry
+
+  Created by Nikhil Patel on 11/02/20.
+  Copyright © 2020 Crest Infosystems. All rights reserved.
+*/
+
+"ALL_PHOTOS_IN_LIBRARY" = "Momentos";
+"PXUserCollectionsSectionTitle" = "Mis álbumes";
+"FULL_PHOTOS_GRID_ZOOM_LEVEL_TITLE" = "Momentos";
+"NO_PHOTOS_OR_VIDEOS" = "No hay fotos ni videos";
+"EMPTY_ALBUM_LIST_MESSAGE_iPhone" = "Puede tomar fotos y videos usando la cámara, o sincronizar fotos y videos en su iPhone usando iTunes";

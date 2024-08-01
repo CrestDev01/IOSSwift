@@ -1,0 +1,13 @@
+/* 
+  PhotosUI.strings
+  ClothingIndustry
+
+  Created by Nikhil Patel on 11/02/20.
+  Copyright © 2020 Crest Infosystems. All rights reserved.
+*/
+
+"ALL_PHOTOS_IN_LIBRARY" = "लम्हें";
+"PXUserCollectionsSectionTitle" = "मेरे एल्बम";
+"FULL_PHOTOS_GRID_ZOOM_LEVEL_TITLE" = "लम्हें";
+"NO_PHOTOS_OR_VIDEOS" = "कोई फ़ोटो या वीडियो नहीं";
+"EMPTY_ALBUM_LIST_MESSAGE_iPhone" = "आप कैमरा का उपयोग करके फ़ोटो और वीडियो ले सकते हैं, या iTunes का उपयोग करके अपने iPhone पर फ़ोटो और वीडियो सिंक कर सकते हैं";

@@ -1,0 +1,16 @@
+/* 
+  CameraUI.strings
+  ClothingIndustry
+
+  Created by Nikhil Patel on 11/02/20.
+  Copyright © 2020 Crest Infosystems. All rights reserved.
+*/
+
+"PHOTO" = "FOTO";
+"AEAF_LOCK_TEXT" = "BLOQUEO AE / AF";
+"API_CANCEL_TITLE" = "Cancelar";
+"HDR_AUTO" = "Auto";
+"HDR_ON" = "En";
+"HDR_OFF" = "Apagado";
+"TIMER_OFF_TEXT" = "Apagado";
+"USE_PHOTO" = "Usar foto";

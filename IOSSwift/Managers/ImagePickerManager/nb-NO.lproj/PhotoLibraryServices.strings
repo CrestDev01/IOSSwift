@@ -1,0 +1,11 @@
+/* 
+  PhotoLibraryServices.strings
+  ClothingIndustry
+
+  Created by Nikhil Patel on 11/02/20.
+  Copyright © 2020 Crest Infosystems. All rights reserved.
+*/
+
+"PHOTOS" = "Fotos";
+"CAMERA_ROLL" = "Kamerarull";
+"ALL_SCREENSHOTS" = "Skjerm";

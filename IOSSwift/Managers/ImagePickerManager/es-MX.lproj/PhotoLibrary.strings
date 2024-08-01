@@ -1,0 +1,17 @@
+/* 
+  PhotoLibrary.strings
+  ClothingIndustry
+
+  Created by Nikhil Patel on 11/02/20.
+  Copyright © 2020 Crest Infosystems. All rights reserved.
+*/
+
+"CANCEL" = "Cancelar";
+"RETAKE" = "Volver a tomar";
+"STREAM_SHARED_BY_ME_SUBTITLE" = "De ti";
+"STREAM_SHARED_BY_SUBTITLE" = "Desde %@";
+"ALBUM_IMAGE_COUNT_FORMAT" = "%@ Fotos";
+"ALBUM_VIDEO_COUNT_FORMAT" = "%@ Videos";
+"1_ALBUM_PHOTO" = "1 Foto";
+"1_ALBUM_VIDEO" = "1 Vídeo";
+"ALBUM_TWO_TYPES_LABEL_COMMAS" = "%@, %@";

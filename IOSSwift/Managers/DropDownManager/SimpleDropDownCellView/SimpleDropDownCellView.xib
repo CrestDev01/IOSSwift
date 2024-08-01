@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SimpleDropDownCellView" customModule="VapeStore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vJh-IC-eQ7">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6oo-cm-Z24">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1"/>
+                            <color key="backgroundColor" name="LighterGray"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="0PA-nT-Bvt"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QVi-dg-uHN">
+                            <rect key="frame" x="10" y="10" width="394" height="24"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="6oo-cm-Z24" firstAttribute="leading" secondItem="vJh-IC-eQ7" secondAttribute="leading" id="5qd-sA-LY3"/>
+                        <constraint firstItem="QVi-dg-uHN" firstAttribute="leading" secondItem="vJh-IC-eQ7" secondAttribute="leading" constant="10" id="67U-Ra-tjv"/>
+                        <constraint firstAttribute="trailing" secondItem="6oo-cm-Z24" secondAttribute="trailing" id="GCq-RC-gti"/>
+                        <constraint firstItem="6oo-cm-Z24" firstAttribute="top" secondItem="vJh-IC-eQ7" secondAttribute="top" id="GJ6-Vj-zDi"/>
+                        <constraint firstItem="QVi-dg-uHN" firstAttribute="top" secondItem="vJh-IC-eQ7" secondAttribute="top" constant="10" id="S7o-nh-UZu"/>
+                        <constraint firstAttribute="bottom" secondItem="QVi-dg-uHN" secondAttribute="bottom" constant="10" id="o4q-81-wHl"/>
+                        <constraint firstItem="QVi-dg-uHN" firstAttribute="centerX" secondItem="vJh-IC-eQ7" secondAttribute="centerX" id="uzb-IF-7a7"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vJh-IC-eQ7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="7Kj-Is-qG6"/>
+                <constraint firstItem="vJh-IC-eQ7" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Nh2-l9-5ku"/>
+                <constraint firstItem="vJh-IC-eQ7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Wd1-1K-whk"/>
+                <constraint firstItem="vJh-IC-eQ7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="r0v-xk-Zmz"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="optionLabel" destination="QVi-dg-uHN" id="0qP-f9-E5l"/>
+                <outlet property="selectedBackgroundView" destination="6oo-cm-Z24" id="9YH-SG-bhn"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="LighterGray">
+            <color red="0.86274509803921573" green="0.86274509803921573" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
