@@ -73,13 +73,14 @@ pod install
 ```
 ### API response structure dependencies
 
-This project is structured for API response show belo
+This project is structured for API response show below
+```sh
 {
 "status": [Int]
 "data" : [Array of json object] / [json object]
 "message" : [String]
 }
-
+```
 This structure is handled using RestApiResponse.swift file. Feel free to modify as per your API requirement in your own project 
 
 ## Contribution
