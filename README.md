@@ -21,7 +21,7 @@ IOSSwift/
     |- SearchManager
 |- Model
 |- Utilities
-    |- AppControlClassed
+    |- AppControlClasses
     |- Constants
     |- Extensions
 |- ViewControllers
@@ -40,10 +40,14 @@ Now, lets dive into each folder and understand the purpose
 
 4- Utilities - This folder contains contains common use of uitilites like Date extensions, Font extensions etc.
  
-4- ViewControllers - This folder contains all the screen files which are designed in storyboard. 
+5- ViewControllers - This folder contains all the screen files which are designed in storyboard. 
 
-5- Webservices - This folder contains REST API related files which is used to call the api, Parse the API response and manage the API parameters.
+6- Webservices - This folder contains REST API related files which is used to call the api, Parse the API response and manage the API parameters.
+
 ```
+## Additional screen designing added to storyboard using UIView extensions
+
+<img width="390" alt="Screenshot 2024-08-01 at 11 17 12 AM" src="https://github.com/user-attachments/assets/92c3f72b-1061-4a99-abdc-76341405e41c">
 
 ## Setting Up the Project
 
