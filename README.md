@@ -50,6 +50,7 @@ Now, lets dive into each folder and understand the purpose
 ### Prerequisites
 
 Ensure you have Xcode installed on your system. 
+Ensure you have installes CocoaPods on your systems. Refer this link for installation guide https://cocoapods.org/
 
 ### Cloning the Repository
 
